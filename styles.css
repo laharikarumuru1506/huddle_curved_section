@@ -1,0 +1,146 @@
+.logo{
+	width: 190px;
+}
+.try-btn,.submit-btn{
+	border: 1px solid #b3069f;
+	color: #b3069f;
+	border-radius: 50px;
+}
+.try-btn{
+	padding: 10px 50px;
+}
+a.try-btn:hover{
+	color:#b3069f;
+}
+a.submit-btn:hover,#submit:hover{
+	color: white;
+}
+h2{
+	font-weight: bold;
+}
+.section-1,.section-5{
+	max-width: 700px;
+	margin:100px auto;
+	text-align: center;
+}
+.section-1 p{
+	max-width: 450px;
+	margin:20px auto;
+	margin-bottom: 40px;
+}
+.submit-btn{
+  background-color: #b3069f;
+  color: white;
+  padding: 13px 70px;
+}
+.image-1{
+	width: 100%;
+	padding: 80px 0px;
+}
+.flex-content{
+	text-align: left;
+}
+.flex-content div{
+	margin: 0px 70px;
+}
+.flex-content img{
+  width: 30px;
+}
+.flex-content span{
+   color: grey;
+}
+.flex-content h1{
+  font-size: 60px;
+  font-weight: bolder;
+}
+.section-2,.section-4{
+  background-color:rgba(169,213,234,0.1);
+  margin: -17px 0px;
+	padding:0px 50px;
+}
+.section-3{
+	margin:50px;
+}
+img.bg-top,img.bg-bottom,img.bg-footer-top,img.bg-mobile-top,img.bg-mobile-bottom,img.bg-footer-mobile-top{
+    position:relative;
+    width:100%;
+}
+img.bg-mobile-top,img.bg-mobile-bottom,img.bg-footer-mobile-top{
+    display: none;
+}
+.flex-1 div{
+  margin: 50px;
+}
+.flex-1 p{
+ max-width: 450px;
+ margin: auto;
+}
+.image-2{
+	width: 400px;
+}
+.flex-2 div{
+  margin: 50px;
+}
+.flex-2 p{
+ max-width: 500px;
+ margin: auto;
+}
+.section-5 a{
+	margin: 30px;
+}
+.footer{
+	background-color:#1f2330;
+	color: white;
+    margin: -5px 0px;
+	padding:50px;
+}
+.footer p{
+	max-width: 350px;
+	margin:30px auto;
+	margin-left: 0px;
+}
+#submit{
+	border: 1px solid #b3069f;
+	border-radius: 5px;
+	color: white;
+	background-color: #b3069f;
+	padding: 5px 30px;
+}
+#label-text{
+	color: indianred;
+	visibility: hidden;
+}
+.svg{
+	filter: grayscale(100%) invert(100%);
+}
+.icon{
+	width: 16px;
+	font-size: 25px;
+	color: white;
+}
+.footer i:hover{
+	text-decoration: none;
+	color:#3192c0;
+}
+@media screen and (max-width: 1000px){
+	.image-2{
+	width: 350px;
+}
+}
+@media screen and (max-width: 800px){
+	.section{
+		margin: 70px 70px -90px 70px;
+	}
+	.flex-content div{
+		margin: 20px 10px;
+	}
+	.image-2{
+	width: 300px;
+}
+img.bg-top,img.bg-bottom,img.bg-footer-top{
+    display: none;
+}
+img.bg-mobile-top,img.bg-mobile-bottom,img.bg-footer-mobile-top{
+    display: block;
+}
+}
